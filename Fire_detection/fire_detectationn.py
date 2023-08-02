@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video = cv2.VideoCapture("D:/fire detection/istockphoto-1344343066-640_adpp_is.mp4")
+video = cv2.VideoCapture(0)
 
 while True:
     ret, frame = video.read()
